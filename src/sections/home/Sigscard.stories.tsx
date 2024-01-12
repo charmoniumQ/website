@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof Sigscard>;
 
 
-const Template: ComponentStory<typeof Sigscard> = (args) => <Sigscard />;
+const Template: ComponentStory<typeof Sigscard> = (args) => <Sigscard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
